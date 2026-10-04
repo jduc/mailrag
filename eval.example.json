@@ -1,0 +1,6 @@
+[
+  {"question": "INV-2023-042", "kind": "exact ID", "field": "subject", "contains": ["INV-2023-042"]},
+  {"question": "signed service agreement with Example Corp", "kind": "names + document", "field": "filename", "contains": ["agreement", "signed"]},
+  {"question": "who asked to learn more about our services?", "kind": "paraphrase", "field": "subject", "equals": "Introduction request"},
+  {"question": "facture impayée", "kind": "French -> English mail", "field": "text", "contains": ["unpaid invoice"]}
+]

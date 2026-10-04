@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+data/
+wheels/
+*.egg-info
+.vscode
+
+# Virtual environments
+.venv
+
+.DS_Store
+
+# Personal working notes
+PLAN.md

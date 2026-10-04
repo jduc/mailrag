@@ -1,0 +1,13 @@
+[project]
+name = "mailrag"
+version = "0.1.0"
+description = "Local RAG over an mbox email archive (Ollama + LanceDB)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lancedb>=0.39.0",
+    "markitdown[docx,pdf,pptx,xls,xlsx]>=0.1.8",
+    "numpy>=2.5.3",
+    "ollama>=0.6.3",
+    "pandas>=3.0.6",
+]
